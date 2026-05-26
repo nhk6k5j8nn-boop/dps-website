@@ -1,98 +1,74 @@
-import Header from "../components/Header";
-import Footer from "../components/Footer";
-
 export default function CareersPage() {
-  return (
-    <main className="careers-page">
-      <Header />
+  return (
+    <main
+      style={{
+        minHeight: "100vh",
+        background: "#07110f",
+        color: "white",
+        padding: "120px 8%",
+        fontFamily: "sans-serif",
+      }}
+    >
+      <h1
+        style={{
+          fontSize: "64px",
+          marginBottom: "20px",
+          fontWeight: "800",
+        }}
+      >
+        Careers at DPS
+      </h1>
 
-      <section className="careers-hero">
-        <div className="careers-card">
-          <span>FACULTY & CAREERS</span>
+      <p
+        style={{
+          maxWidth: "700px",
+          lineHeight: "1.7",
+          fontSize: "18px",
+          color: "#d7d7d7",
+          marginBottom: "50px",
+        }}
+      >
+        Davidson Preparatory School is seeking passionate educators,
+        mentors, coaches, advisors, and innovators ready to help
+        build the future of education.
+      </p>
 
-          <h1>Build the future of education with DPS.</h1>
+      <div
+        style={{
+          display: "grid",
+          gap: "20px",
+          maxWidth: "700px",
+        }}
+      >
+        <div
+          style={{
+            padding: "24px",
+            borderRadius: "18px",
+            background: "rgba(255,255,255,0.05)",
+            border: "1px solid rgba(255,255,255,0.08)",
+          }}
+        >
+          <h2>Current Openings</h2>
+          <p>• Elementary Teachers</p>
+          <p>• STEM Instructors</p>
+          <p>• Athletic Coaches</p>
+          <p>• Boarding Advisors</p>
+          <p>• Fine Arts Faculty</p>
+        </div>
 
-          <p>
-            Davidson Preparatory School is building a team of educators,
-            coaches, residential mentors, academy instructors, and operational
-            leaders who believe in structure, excellence, innovation, and
-            student success.
-          </p>
-        </div>
-      </section>
-
-      <section className="careers-grid-section">
-        <div className="careers-grid">
-          <div className="careers-box">
-            <h2>Teaching Faculty</h2>
-            <p>
-              Classroom educators across Early Learning, Elementary, Middle, and
-              Upper School divisions.
-            </p>
-          </div>
-
-          <div className="careers-box">
-            <h2>Academy Instructors</h2>
-            <p>
-              Career-focused instructors for healthcare, technology, business,
-              trades, aviation, media, law, and more.
-            </p>
-          </div>
-
-          <div className="careers-box">
-            <h2>Athletics & Coaching</h2>
-            <p>
-              Coaches, trainers, performance staff, spirit program leaders, and
-              student-athlete support roles.
-            </p>
-          </div>
-
-          <div className="careers-box">
-            <h2>Boarding & Residential Life</h2>
-            <p>
-              Residential mentors, dorm supervisors, student life staff, and
-              wellness-focused support roles.
-            </p>
-          </div>
-
-          <div className="careers-box">
-            <h2>Operations & Security</h2>
-            <p>
-              Campus operations, safety, transportation, welcome center,
-              facilities, and administrative support.
-            </p>
-          </div>
-
-          <div className="careers-box">
-            <h2>Leadership & Administration</h2>
-            <p>
-              Division leaders, assistant principals, directors, coordinators,
-              and executive operations staff.
-            </p>
-          </div>
-        </div>
-      </section>
-
-      <section className="careers-benefits-section">
-        <div className="careers-benefits-card">
-          <span>DPS EMPLOYEE EXPERIENCE</span>
-
-          <h2>Designed to support excellent people doing excellent work.</h2>
-
-          <div className="careers-benefits-grid">
-            <p>Professional Growth</p>
-            <p>Leadership Pathways</p>
-            <p>Modern Campus Culture</p>
-            <p>Faculty Housing Opportunities</p>
-            <p>Technology-Forward Classrooms</p>
-            <p>Residential Community Access</p>
-          </div>
-
-          <a href="/welcome-center">Contact Human Resources</a>
-        </div>
-      </section>
-
-      <Footer />
-    </main>
-  );
+        <div
+          style={{
+            padding: "24px",
+            borderRadius: "18px",
+            background: "rgba(255,255,255,0.05)",
+            border: "1px solid rgba(255,255,255,0.08)",
+          }}
+        >
+          <h2>Human Resources</h2>
+          <p>Email: careers@dpsacademy.org</p>
+          <p>Phone: (706) 555-0148</p>
+        </div>
+      </div>
+    </main>
+  );
 }
