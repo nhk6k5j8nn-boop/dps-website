@@ -21,8 +21,8 @@ export default function Hero() {
         </p>
 
         <div className="hero-actions">
-          <a href="#" className="primary-btn">APPLY NOW</a>
-          <a href="#" className="secondary-btn">EXPLORE DPS</a>
+          <a href="/apply" className="primary-btn">APPLY NOW</a>
+          <a href="#academies" className="secondary-btn">EXPLORE DPS</a>
         </div>
       </div>
     </section>

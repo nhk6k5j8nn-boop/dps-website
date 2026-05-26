@@ -612,7 +612,7 @@ export default function AcademiesSection() {
   const [openAcademy, setOpenAcademy] = useState<string | null>(null);
 
   return (
-    <section className="academies-section">
+    <section id="academie" className="academies-section">
       <div className="academies-header">
         <span>CAREER ACADEMIES</span>
 
